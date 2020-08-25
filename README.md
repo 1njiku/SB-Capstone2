@@ -24,12 +24,22 @@
 <h2> Results </h2>
 The original dataset contained some reviews in other languages including Spanish and Arabic. Preprocessing the text reduced the reviews from a corpus of about 3,000 entries to almost 1,000. Below is a plot of the distribution of the positive vs. negative labels in the original dataset. 
 
-![](images/images/f1scores.png)
+<h3> Number of positive labels compared to negative labels </h3>
+![](images/final_df_label_proportions.png)
 
-The classifier scores were similarly modest. The majority of the classifiers had a score hovering at around 8%; the Gradient Boosting Classifier registering the highest score at 8.5%, while the tuned Decision Tree came in last with a score of 6%.
+After preprocessing and removing stopwords, I created word clouds of the text associated with a positive label and the text associated with a negative label.
 
-![](images/images/conc1.png)
+<h3> Word cloud of text labeled with a positive rating </h3>
+![](images/pos_text_wordcloud.png)
+
+<h3> Word cloud of text labeled with a negative rating </h3>
+![](images/neg_text_wordcloud.png)
+
+The LSTM neural network had the best performance on accuracy and AUC score followed by the Bernoulli Naive Bayes and the simple RNN neural network. 
+
+![](images/accuracy_comp_models.png)
+![](images/AUC_comp_models.png)
 
 <h2>Future Scope </h2>
-<li> Feature engineering to improve matrix of features</li>
-<li> Time-series exploration on a bolstered datetime column</li>
+<li> Feeding the models more English language text</li>
+
