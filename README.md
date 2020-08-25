@@ -22,5 +22,14 @@
 </ol>
 
 <h2> Results </h2>
+The original dataset contained some reviews in other languages including Spanish and Arabic. Preprocessing the text reduced the reviews from a corpus of about 3,000 entries to almost 1,000. Below is a plot of the distribution of the positive vs. negative labels in the original dataset. 
+
+![](images/images/f1scores.png)
+
+The classifier scores were similarly modest. The majority of the classifiers had a score hovering at around 8%; the Gradient Boosting Classifier registering the highest score at 8.5%, while the tuned Decision Tree came in last with a score of 6%.
+
+![](images/images/conc1.png)
 
 <h2>Future Scope </h2>
+<li> Feature engineering to improve matrix of features</li>
+<li> Time-series exploration on a bolstered datetime column</li>
