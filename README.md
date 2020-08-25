@@ -13,9 +13,9 @@
 <h2> Repository Navigation </h2>
 <ol>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/Project-Proposal%20.pdf'>Project Proposal</a></li>
-  <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/a.EDA_Preprocessing.ipynb'>EDA and Preprocessing</a></li>
+  <li><a href=''>EDA and Preprocessing</a></li>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/Capstone-2-Milestone-Report.pdf'>Milestone Report</a></li>
-  <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/b.%20Bernoulli_Naive_Bayes.ipynb'>Bernoulli Naive Bayes Model</a></li>
+  <li><a href=''>Bernoulli Naive Bayes Model</a></li>
   <li><a href=''>Long Short Term Memory (LSTM) Neural Network</a></li>
   <li><a href=''>Recurrent Neural Network</a></li>
   <li><a href=''>Final Report</a></li>
