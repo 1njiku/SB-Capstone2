@@ -22,18 +22,7 @@
 </ol>
 
 <h2> Results </h2>
-The original dataset contained some reviews in other languages including Spanish and Arabic. Preprocessing the text reduced the reviews from a corpus of about 3,000 entries to almost 1,000. Below is a plot of the distribution of the positive vs. negative labels in the original dataset. 
-
-<h3> Number of positive labels compared to negative labels </h3>
-![](images/final_df_label_proportions.png)
-
-After preprocessing and removing stopwords, I created word clouds of the text associated with a positive label and the text associated with a negative label.
-
-<h3> Word cloud of text labeled with a positive rating </h3>
-![](images/pos_text_wordcloud.png)
-
-<h3> Word cloud of text labeled with a negative rating </h3>
-![](images/neg_text_wordcloud.png)
+The original dataset contained some reviews in other languages including Spanish and Arabic. Preprocessing the text reduced the reviews from a corpus of about 3,000 entries to almost 1,000. 
 
 The LSTM neural network had the best performance on accuracy and AUC score followed by the Bernoulli Naive Bayes and the simple RNN neural network. 
 
