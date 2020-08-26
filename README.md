@@ -19,6 +19,7 @@
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/c.LSTM.ipynb'>Long Short Term Memory (LSTM) Neural Network</a></li>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/d.RNN.ipynb'>Recurrent Neural Network</a></li>
   <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/Capstone%202%20Final%20Report.pdf'>Final Report</a></li>
+  <li><a href='https://github.com/1njiku/SB-Capstone2/blob/master/Capstone%202%20Slides.pdf'>TL;DR Slides</a></li>
 </ol>
 
 <h2> Results </h2>
