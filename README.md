@@ -30,7 +30,7 @@ The LSTM neural network had the best performance on accuracy and AUC score follo
 ![](images/accuracy_comp_models.png)
 ![](images/AUC_comp_models.png)
 <h2> Conclusions </h2>
-During preprocessing, I discovered that my dataset had reviews in different languages including Spanish and Arabic and removing these resulted in a smaller corpus to train on. Despite the commendable performance of the LSTM, the simple RNN perhaps could benefit from having a larger training corpus in order to improve performance. 
+During preprocessing, I discovered that the dataset had reviews in different languages including Spanish and Arabic and removing these resulted in a smaller corpus to train on. Despite the commendable performance of the LSTM, the simple RNN perhaps could benefit from having a larger training corpus in order to improve performance. 
 
 <h2>Future Scope </h2>
 <li> Adding more English language text to train the models</li>
